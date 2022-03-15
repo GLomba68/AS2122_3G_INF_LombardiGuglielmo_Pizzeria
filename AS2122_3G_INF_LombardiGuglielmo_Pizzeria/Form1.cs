@@ -17,5 +17,9 @@ namespace AS2122_3G_INF_LombardiGuglielmo_Pizzeria
             InitializeComponent();
         }
 
+        private void btnTipo_OnClick(object sender, EventArgs e)
+        {
+
+        }
     }
 }
