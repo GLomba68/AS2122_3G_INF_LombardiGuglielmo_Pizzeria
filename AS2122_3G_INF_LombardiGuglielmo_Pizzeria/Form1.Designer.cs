@@ -137,6 +137,10 @@ namespace AS2122_3G_INF_LombardiGuglielmo_Pizzeria
             // cmbTipo
             // 
             this.cmbTipo.FormattingEnabled = true;
+            this.cmbTipo.Items.AddRange(new object[] {
+            "Margherita",
+            "Verdure",
+            "Quattro Stagioni"});
             this.cmbTipo.Location = new System.Drawing.Point(176, 74);
             this.cmbTipo.Name = "cmbTipo";
             this.cmbTipo.Size = new System.Drawing.Size(121, 23);
