@@ -38,7 +38,7 @@ namespace AS2122_3G_INF_LombardiGuglielmo_Pizzeria
             this.lblQuattroStagioni = new System.Windows.Forms.Label();
             this.lblVerdure = new System.Windows.Forms.Label();
             this.lblMargherita = new System.Windows.Forms.Label();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.lstRiepilogo = new System.Windows.Forms.ListBox();
             this.cmbTipo = new System.Windows.Forms.ComboBox();
             this.txtQuantità = new System.Windows.Forms.TextBox();
             this.btnTipo = new System.Windows.Forms.Button();
@@ -125,14 +125,14 @@ namespace AS2122_3G_INF_LombardiGuglielmo_Pizzeria
             this.lblMargherita.TabIndex = 6;
             this.lblMargherita.Text = "/";
             // 
-            // listBox1
+            // lstRiepilogo
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 15;
-            this.listBox1.Location = new System.Drawing.Point(424, 57);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(120, 124);
-            this.listBox1.TabIndex = 9;
+            this.lstRiepilogo.FormattingEnabled = true;
+            this.lstRiepilogo.ItemHeight = 15;
+            this.lstRiepilogo.Location = new System.Drawing.Point(424, 57);
+            this.lstRiepilogo.Name = "lstRiepilogo";
+            this.lstRiepilogo.Size = new System.Drawing.Size(120, 124);
+            this.lstRiepilogo.TabIndex = 9;
             // 
             // cmbTipo
             // 
@@ -171,7 +171,7 @@ namespace AS2122_3G_INF_LombardiGuglielmo_Pizzeria
             this.Controls.Add(this.btnTipo);
             this.Controls.Add(this.txtQuantità);
             this.Controls.Add(this.cmbTipo);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.lstRiepilogo);
             this.Controls.Add(this.lblQuattroStagioni);
             this.Controls.Add(this.lblVerdure);
             this.Controls.Add(this.lblMargherita);
@@ -199,7 +199,7 @@ namespace AS2122_3G_INF_LombardiGuglielmo_Pizzeria
         private System.Windows.Forms.Label lblQuattroStagioni;
         private System.Windows.Forms.Label lblVerdure;
         private System.Windows.Forms.Label lblMargherita;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox lstRiepilogo;
         private System.Windows.Forms.ComboBox cmbTipo;
         private System.Windows.Forms.TextBox txtQuantità;
         private System.Windows.Forms.Button btnTipo;

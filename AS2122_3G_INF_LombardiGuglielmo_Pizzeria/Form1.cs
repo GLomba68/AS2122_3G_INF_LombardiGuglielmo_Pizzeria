@@ -27,16 +27,22 @@ namespace AS2122_3G_INF_LombardiGuglielmo_Pizzeria
             {
                 case "Margherita":
                     margherita = margherita + Convert.ToInt32(txtQuantità.Text);
+                    lstRiepilogo.Items.Add("Margherita " + margherita);
                     break;
 
                 case "Verdure":
                     verdure = verdure + Convert.ToInt32(txtQuantità.Text);
+                    lstRiepilogo.Items.Add("Verdure " + verdure);
                     break;
 
                 default:
                     quattrostagioni = quattrostagioni + Convert.ToInt32(txtQuantità.Text);
+                    lstRiepilogo.Items.Add("Quattro Stagioni " + quattrostagioni);
                     break;
+
             }
+
+            
         }
     }
 }
